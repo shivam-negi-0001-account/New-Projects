@@ -1,0 +1,513 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.topHeader {
+background-color: green;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.logoImg img {
+    width: 100px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+.topHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+color: #fff;
+
+}
+
+nav ul a:hover {
+    color: blue;
+}
+
+a.active,
+a:hover {
+    background-color: #FF9800;
+    padding: 3px 8px;
+}
+
+/* 123456890-  SECTION (02)*/
+
+.backgroundVideo {
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.backgroundVideoContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.backgroundVideoContent h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 74px;
+    color: #fff;
+    font-family: math;
+
+}
+
+.backgroundVideo video {
+    width: 100%;
+
+}
+
+.backgroundVideoContent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.searchBtn {
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px 50px;
+    background-color: #FF9800;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.searchBtn:hover {
+    background-color: gray;
+}
+
+.btn {
+    width: 100%;
+}
+
+/* /* @@@@@@@@@@************************* * SECTION (03) */
+
+.unitedStateImg img {
+    width: 100%;
+}
+
+.travelImg h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.unitedStateImg h5 {
+    font-family: halyard-display, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(68, 68, 68, 8);
+
+    font-weight: 500;
+    /* color: #fff; */
+}
+
+.unitedStateImg img {
+    box-shadow: 4px, 7px, 7px, 0px, #00000042;
+    transition: 400ms;
+
+}
+
+.unitedStateImg img:hover {
+    transform: scale(1.03);
+}
+
+/* ##########*************************8 SECTION (04) */
+
+.bestTravelPlace img {
+    box-shadow: 4px, 7px, 7px, 0px, #00000042;
+    transition: 400ms;
+
+}
+
+.bestTravelPlace img:hover {
+    transform: scale(1.03);
+}
+
+img {
+    box-shadow: 4px, 7px, 7px, 0px, #00000042;
+    transition: 400ms;
+
+}
+
+.unitedStateImg img:hover {
+    transform: scale(1.03);
+}
+
+.travelPlace h3 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bestTravelPlace img {
+    width: 100%;
+}
+
+.bestTravelPlace p {
+    text-align: center;
+}
+
+.bestTravelPlace h6 {
+    text-align: center;
+
+}
+
+.bestTravelPlace h4 {
+    text-align: center;
+    font-size: 17px;
+    font-family: calc();
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: normal;
+}
+
+/* &&&&&&&&&******************** SECTION(05) */
+
+.placeCityTour h4 {
+    color: rgb(68, 68, 68, 0.2);
+    font-family: halyard-display, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.worldWide {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+}
+
+.worldWide h5 {
+    text-align: center;
+    font-size: 29px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.placeCityTour h4 {
+    text-transform: capitalize;
+    color: rgb(68, 68, 68, 8);
+    font-family: halyard-display, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.placeCityTour img {
+    box-shadow: 4px, 7px, 7px, 0px, #00000042;
+    transition: 400ms;
+
+}
+
+.placeCityTour img:hover {
+    transform: scale(1.03);
+}
+
+.placeCityTour p {
+    color: #0000009e;
+    text-transform: capitalize;
+}
+
+/* SECTION (06) */
+
+.millonLoveHadingOut {
+    background-color: #000;
+    color: #fff;
+}
+
+.imageLove img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.millonLoveHadingOutContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.millonLoveHadingOutContent h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.starContent i {
+    font: 15px;
+    color: rgb(299, 0, 110, 1);
+}
+
+.starContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.font {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.starContent h5 span {
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+.starContent h5 {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imageLove a {
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.imageLove p {
+    text-align: center;
+    color: rgb(248, 248, 248);
+}
+
+.main {
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+/* @@@@@@@@@@@@############# SECTION (07) */
+.worldYourTp p {
+    font-size: 15px;
+    width: 400px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.worldYourTp h4 {
+    color: rgb(68, 68, 68, );
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.onlineDetails {
+    color: #fff;
+    background-color: #657898;
+}
+
+.imgRightSide img {
+    width: 100%;
+}
+
+.worldYourTp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* @@@@@@@@@@@@############# SECTION (08) */
+
+.scrollImg img{
+    max-width: 10%;
+}
+/* @@@@@@@@@@@@############# SECTION (08) */
+.emojes h6 {
+    font-size: 40px;
+}
+
+.emojes i {
+    color: olivedrab;
+    font-size: 50px;
+}
+
+.emojes span {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.emojes h5 {
+
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/* @@@@@@@@@@@@############# SECTION (09) */
+
+
+.endSection img {
+    width: 10%;
+}
+
+.footerSection p:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.footerSection p {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.scaner {
+    display: flex;
+    align-items: center;
+}
+
+.scaner {
+    border: 0.3px solid aqua;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.scaner img {
+    width: 50%;
+}
+
+.scaner h6 {
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.footerSection i {
+    font-size: 12px;
+}
+
+.footerSection ul {
+    text-transform: capitalize;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+    font-weight: 300;
+}
+
+.footerSection ul li:hover {
+    color: blue;
+}
+
+.endSection {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+}
+
+.footerSection h6 {
+    margin-top: 30px;
+}
+
+.list li {
+    margin-top: 30px;
+}
+
+/* @@@@@@@@@@@@############# SECTION (10) */
+
+
+.headoutContentFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headoutFontIconSec span {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+}
+
+.headout i {
+    margin: 3px;
+    font-size: 20px;
+    /* color: rgb(45, 23, 221);  */
+    color: rgb(102, 102, 102);
+
+}
+
+.headout {
+    margin-bottom: 30px;
+}
+
+.privacy {
+    margin-left: 10px;
+}
+
+.trems {
+    margin-left: 10px;
+
+}
+
+/* ***********@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:992px) {
+    .backgroundVideoContent h1{
+        font-size: 65px;
+    }
+
+    .unitedStateImg img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    nav ul{
+        display: none;
+    }
+    .backgroundVideoContent h1{
+        font-size: 40px;
+    }
+    .emojes{
+        text-align: center;
+    }
+    .endSection{
+        text-align: center;
+    }
+    .headoutContentFlex  {
+        display: block;
+    }
+    .onlineDetails{
+        text-align: center;
+    }
+    .headout i {
+        margin-top: 20px;
+        margin: 6px
+        ;
+    }
+}

@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header h1 {
+    color: #fff;
+    /* font-size: 25px; */
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: turquoise;
+    /* border: 1px solid; */
+
+
+}
+
+nav ul {
+    /* width: 800px;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul a:hover {
+    color: yellow;
+}
+
+nav ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fontOsm i:hover {
+    color: #fff;
+}
+
+.fontOsm i {
+    margin-left: 20px;
+    color: yellow;
+    font-size: 22px;
+}
+
+/*  ============= SECTION ONE ================ */
+/* .topSec {
+    background-image: url(https://images.hdqwalls.com/download/sunset-nature-trees-img-3840x2160.jpg);
+    width: 100%;
+    height: 100vh;
+    transform: scale(48px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: backgroundSlider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backgroundSlider {
+    20%{
+        background-image: url(https://th.bing.com/th/id/OIP.4zOFUCgIAuZO1pkjM01b8gHaEK?w=2560&h=1440&rs=1&pid=ImgDetMain);
+    }
+
+    40%{
+        background-image: url(https://wallpaperaccess.com/full/4540745.jpg);
+    }
+
+    60%{
+        background-image: url(https://images.hdqwalls.com/download/sunset-nature-trees-img-3840x2160.jpg);
+    }
+} */
+
+.rightSec img {
+    width: 100%;
+}
+
+.btn1:hover {
+    background-color: cadetblue;
+    box-shadow: 0px 0px 5px 5px #fff;
+}
+
+.btn1 {
+    transition: 1s;
+    border: none;
+    padding: 5px 30px;
+    background-color: blueviolet;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.topSec {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* z-index: 99; */
+}
+
+.leftSec h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.8s;
+
+    /* transition-timing-function: var(100vh); */
+}
+
+.leftSec p {
+    text-transform: capitalize;
+    transition: 0.8s;
+    text-align: start;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.topSec {
+    background-color: turquoise;
+}
+
+
+.rightSec {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/3194518/pexels-photo-3194518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slider {
+    30% {
+        background-image: url(https://media.istockphoto.com/id/1283021194/photo/developing-strategies-and-managing-marketing-across-multiple-online-platforms.jpg?s=1024x1024&w=is&k=20&c=jFzFuf0g53oxcIlJlsIyDa0CWO1JCo-PKOX6nCO3fe4=);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    40% {
+        background-image: url(https://media.istockphoto.com/id/1777591927/photo/enhancing-creative-design-with-editable-graphic-photos.jpg?s=1024x1024&w=is&k=20&c=lNpJ5H7dnHwRmGXBxmCYmG4mgzg6ZoBYq4exGpEo7HU=);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    60% {
+        background-image: url(https://www.istockphoto.com/photo/developing-strategies-and-managing-marketing-across-multiple-online-platforms-gm1283021194-380576837);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    80% {
+        background-image: url(https://www.bytestechnolab.com/wp-content/uploads/2022/09/Javascript-Development.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url(https://www.logicsofts.co.uk/blog/wp-content/uploads/2020/10/software-developer-vs-web-developer-1024x682.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url(https://th.bing.com/th/id/OIP.0C1APoZ3Auo5nECbO7fAxwHaFc?rs=1&pid=ImgDetMain);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/*  ================== SECTION TWO================ */
+.topHeading h5 {
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.itemsImage {
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+.itemsImage img {
+    margin-left: 20px;
+    width: 100%;
+    border: 2px solid;
+}
+
+.itemsImage img:hover {
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
+
+.informaction h1 {
+    font-weight: 700;
+    margin-top: -0px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.informaction p {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orderNow:hover {
+    box-shadow: 0px 0px 4px 2px #fff;
+    background-color: gray;
+}
+
+.orderNow {
+    transition: 1s;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 30px;
+    background-color: green;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.timerSectionOreder {
+    position: relative;
+}
+
+.timerBox {
+    width: 110px;
+    height: 70px;
+    margin: 9px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.days {
+    position: absolute;
+    top: 360px;
+    left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.hours {
+    position: absolute;
+    top: 360px;
+    left: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.minutes {
+    position: absolute;
+    top: 360px;
+    left: 280px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.secounds {
+    position: absolute;
+    top: 360px;
+    left: 370px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+
+}
+
+.boxItem {
+    margin-top: 280px;
+}
+
+.pera {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.formHeading h2:hover {
+    color: violet;
+}
+
+.inputForm h2 {
+    color: #fff;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    letter-spacing: 2px;
+    /* margin-left: 20%; */
+    text-align: center;
+    /* margin-top: -20%; */
+    font-weight: 700;
+}
+
+.inputForm i {
+    margin-left: -30px;
+    color: black;
+}
+
+.inputForm {
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 2px solid;
+    width: 100%;
+    padding: 5px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 2px #fff;
+
+}
+
+.inputForm input:hover {
+    border: 3px solid #000;
+    border-radius: 9px;
+}
+
+.inputForm input {
+    text-transform: capitalize;
+    color: #000;
+    padding: 2px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.inputForm label {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.inputForm input[type="submit"] {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    font-size: 22px;
+    margin-left: 100px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: 4px 23px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    border-radius: 9px;
+}
+
+.inputForm input[type="submit"]:hover {
+    background-color: violet;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #ffff;
+    transition: 1s;
+
+}
+
+/*  =========== (SECTION THREE) ======================= */
+.accountHeading h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.accountOpen img{
+    width: 100%;
+    /* height: 70vh; */
+    /* margin-top: 100px; */
+    margin-left: 50px;
+}
+
+.accountOpen img:hover{
+   transform: scale(1.1);
+   transition: 0.8s ease-in-out;
+}
+.fontOsmSocalMedai{
+    text-align: center;
+}
+.fontOsmSocalMedai i:hover{
+    box-shadow: 0px 0px 4px 2px #fff;
+    background-color: #fff;
+}
+.fontOsmSocalMedai i{
+    transition: 1s;
+    margin-top: 30px;
+    margin: 5px;
+    color: green;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.dateOfBirthSection {
+    padding: 5px 40px;
+}
+.fornAccountOpen h3 , p {
+    text-align: center;
+    text-transform: capitalize;
+}
+.fornAccountOpen input{
+    padding: 3px 20px;
+    margin-top: 20px;
+}
+
+/*  == SECTION FOUR ========= */
+.tShirtBuyNow img:hover{
+    transform: scale(1.1);
+    transition: 0.9s ease-in-out;
+}
+.tShirtBuyNow img {
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.imgContent{
+    text-transform: capitalize;
+}
+.font i {
+    color: yellow;
+}
+.limitedBtn{
+    border-radius: 9px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 3px 10px;
+    background-color: green;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.tShirtBuyNow h5{
+    width: 80%;
+}
+.tShirtBuyNow2 img:hover{
+    transform: scale(1.1);
+    transition: 0.9s ease-in-out; 
+}
+.tShirtBuyNow2 img{
+    width: 61%;
+    border-radius: 5px;
+    margin-top: 20px;
+}

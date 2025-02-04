@@ -1,0 +1,724 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.logo_img img {
+    width: 100px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+
+}
+
+.header {
+    background-color: darkseagreen;
+}
+
+.ul_list a:hover {
+    background-color: cornflowerblue;
+    padding: 5px 15px;
+}
+
+.ul_list a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ul_list {
+    padding-top: 10px;
+    list-style: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.angle_drop_down i {
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.drop_down_ul_list {
+    margin-left: -45px;
+    background-color: skyblue;
+
+}
+
+.drop_down_ul_list li {
+    list-style: none;
+    padding: 15px;
+
+}
+
+.angle_drop_down {
+    position: relative;
+}
+
+.drop_down_ul_list {
+    width: 180px;
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    opacity: 0.5;
+    display: none;
+
+}
+
+.angle_drop_down li:hover {
+    display: block;
+}
+
+.background_img {
+    background-image: url(https://c.stocksy.com/a/tub000/z9/145755.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.oates_button {
+    border: none;
+    padding: 6px 22px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.speakers_button {
+    padding: 5px 30px;
+    margin-left: 15px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+}
+
+.content_section h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.main_content {
+    height: 100vh;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.button_section {
+    /* text-align: center; */
+    margin-top: 25px;
+}
+
+.content_section p {
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: initial;
+    /* text-align: center; */
+}
+
+.image img {
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.img img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Recent_Articles p {
+    margin-top: 15px;
+}
+
+.Recent_Articles h4 {
+    margin-top: 10px;
+}
+
+.Recent_Articles {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.left_img_sec img {
+    width: 100%;
+}
+
+.main_content_3 {
+    margin-top: 65px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.main_content_2 {
+    text-transform: uppercase;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.main_content_1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.top_heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.A_teg a {
+    color: #fff;
+}
+
+.A_teg {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.main_sec {
+    color: #fff;
+}
+
+.left_sec h2 {
+    background-color: blue;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.left_sec img {
+    width: 100%;
+}
+
+.left_sec p {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.read_more {
+    cursor: pointer;
+    border: none;
+    padding: 1px 25px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.top_owl_carousel_sec {
+    color: #fff;
+}
+
+.owl-carousel h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.owl-carousel p {
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.read_more_button {
+    border: none;
+    padding: 14px 25px;
+    background-color: yellow;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.owl_carousel {
+    color: #fff;
+}
+
+.uzbkistan_img img {
+    width: 100%;
+}
+
+.kazakhstan_img img {
+    width: 100%;
+}
+
+.kyrgyzstan_img img {
+    width: 100%;
+}
+
+.contry_img img{
+    margin-top: 20px;
+    width: 100%;
+}
+.contry_img_and_flag h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contry_img{
+    position: relative;
+    overflow: hidden;
+}
+.contryName {
+    position: absolute;
+    /* width: 100%; */
+    top: 100%;
+    left: 10px;
+    transition: all 0.4s;
+}
+.contryName h2{
+    position: absolute;
+    top: 210px;
+    text-transform: uppercase;
+    text-align: center;
+    left: 30px;
+    color: #fff;
+}
+
+.contry_img:hover .contryName{
+    top: 0px;
+}
+.contryNameTwo h2{
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contryNameTwo{
+    position: absolute;
+    /* width: 100%; */
+    top: 100%;
+    left: 10px;
+    transition: all 0.4s;
+}
+.contry_img:hover .contryNameTwo{
+    top: 0px;
+} 
+.contryNameTwo img{
+    height: 70vh;
+}
+
+
+.contryNameThree h2{
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contryNameThree img{
+    height: 70vh;
+}
+.contryNameThree{
+    position: absolute;
+    /* width: 100%; */
+    top: 100%;
+    left: 10px;
+    transition: all 0.4s;
+}
+
+.contry_img:hover .contryNameThree{
+    top: 0px;
+}
+    
+.contryNameFour {
+    position: absolute;
+    /* width: 100%; */
+    top: 100%;
+    left: 10px;
+    transition: all 0.4s;
+}
+ .contryNameFour h2{
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .contry_img:hover .contryNameFour{
+    top: 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.children_img img{
+    width: 100%;
+}
+.content_list i {
+font-size: 20px;
+}
+.list {
+    padding: 5px 0px;
+}
+.content_list {
+    margin-top: 20px;
+}
+.content_list span {
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+
+.NAVCHETANA_INTERNATIONAL_EDUCATION h3{
+    text-align: center;
+    text-transform: uppercase;
+  background-color: blue;
+  color: #fff;
+    font-size: 40px;
+    
+}
+.NAVCHETANA_INTERNATIONAL_EDUCATION {
+    background-color: #cecece;
+}
+
+
+.ul_li_list h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+}
+.hand_point_sec_right{
+    padding: 15px 0px;
+}
+.hand_point_sec_left {
+    padding: 5px 0px;
+}
+.font_z2osm span {
+    margin-left: 10px;
+    
+    color: #fff;
+}
+.font_osm i {
+    color: #fff;
+    font-size: 18px;
+}  
+.font_osm  {
+    color: #fff;
+    margin-top: 30px;
+}
+.ul_li_list {
+    background-color: #18357f;
+}
+.policies_img img{
+    width:15%;
+}
+.position_relative{
+    position: relative;
+}
+.policies_img img {
+    position: absolute;
+    left: 85%;
+   
+    
+}
+.our_service_img_section img{
+    width: 100%;
+}
+.footer p {
+    margin-top: 10px;
+}
+.footer {
+    background-color: #cecece;
+}
+.font_osm_icon i {
+    font-size: 60px;
+    text-align: center;
+    margin: 5px;
+    color: #18357f;
+}
+.icon p{
+    text-transform: capitalize;
+}
+.contact_section p{
+    text-transform: capitalize;
+}
+.contact_section h2{
+    text-transform: uppercase;
+}
+.newsLetter p {
+    text-transform: capitalize;
+}
+.newsLetter h3{
+    text-transform: uppercase
+
+}
+.input_sec input {
+    border-radius: 6px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.navchetana_img img{
+    max-width: 30%;
+    margin-left: 40px;
+}
+
+/*  SECTION TWOO CSS */
+.eduction h1{
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #18357f;
+    font-weight: bold;
+}
+.eduction p{
+    text-transform: capitalize;
+    text-align: center;
+margin: auto;
+}
+.eduAndContent{
+    background-color: #18357f;
+    padding: 10px;
+    border-radius: 5px;
+}
+.eduAndContent p {
+    color: #fff;
+    /* width: 90%; */
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 60px;
+}
+.eduAndContent span {
+font-size: 24px;
+color: #fec407;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .ul_list h1 {
+        text-align: center;
+    }
+   
+
+    .image img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .main_content_sec {
+        text-align: center;
+    }
+
+    .bookNow_button {
+        margin-top: -20px;
+    }
+
+    .right_content_sec {
+        text-align: center;
+    }
+
+    .right_content_sec h2 {
+        margin-top: 20px;
+    }
+
+    .right_content_sec p {
+        margin-top: 20px;
+    }
+
+    .articles_content {
+        text-align: center;
+    }
+
+    .main_content_3 {
+        margin-top: 10;
+    }
+
+    .main_content_2 {
+        margin-top: 50px;
+    }
+
+    .main_content_1 {
+        margin-top: 20px;
+    }
+    .right_img_section img{
+        margin-top: 70%;
+    }
+
+    .btn {
+        text-align: center;
+        width: 100%;
+    }
+    .children_img img {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .left_img_sec img{
+        margin-top: 100px;
+    }
+    .uzbkistan_img img{
+        width: 100%;
+       
+    }
+  
+}
+
+@media screen and (max-width:768px) {
+    .main_content {
+        padding-top: 22%;
+    }
+
+    .content_section p {
+        color: #fff;
+        text-align: left;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+
+    .ul_list h1 {
+        text-align: center;
+    }
+
+    .articles_content {
+        text-align: center;
+    }
+   
+    
+    .left_img_sec img{
+        margin-top: 0px;
+    }
+    iframe{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .ul_list {
+        display: none;
+
+    }
+
+    .iframe {
+        display: none;
+    }
+
+    .articles_content {
+        text-align: center;
+    }
+
+    iframe {
+        width: auto;
+    }
+    .children_img img {
+        margin-top: 0px;
+    }
+    .right_img_section img{
+        margin-top: 0px;
+    }
+    .left_img_sec img{
+        margin-top: 0px;
+    }
+    .hand_point_sec_left{
+        padding: 10px 0px;
+    }
+    .container{
+        width: 100%;
+    }
+    /* .icon p {
+        width: 90%;
+    }
+    .contact_section p{
+        width: 70%;
+    }
+.newsLetter p {
+    width: 80%;
+}
+.ul_li_list h2{
+    font-size: 18px;
+} */
+/* .font_osm span{
+    margin-left: 0px;
+    width: 0px;
+    font-size: 14px;
+    line-height: 20px;
+} */
+}
